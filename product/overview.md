@@ -1,6 +1,6 @@
 # PredictiFlow (nombre provisional)
 
-> Estado: VALIDADO — v1 (2026-10-05)
+> Estado: VALIDADO — v2 (2026-10-05)
 > Fuente: product/intake.md v2 (validado, 2026-10-05)
 
 mode: new · commercial
@@ -64,6 +64,9 @@ Ordenadas por impacto × incertidumbre. La primera es la siguiente que hay que p
 5. [product] [value] El dolor por el que pagarían está en el coste de la devolución (margen,
    inventario) y no solo en la carga de gestionarla. Si fuera solo carga operativa, el problema
    sería de gestión y no de prevención. *(conflicto §11.4, sin resolver)*
+6. [opportunity: coste-devoluciones-d2c] [value] En las marcas D2C pequeñas y medianas de moda y
+   calzado, la tasa de devolución supera el 15 % de los pedidos enviados. *(El 15 % es un umbral
+   de trabajo provisional para poder refutar la creencia; no es una cifra sustentada en evidencia.)*
 
 **Primera en atacar:** la creencia 1. Si las devoluciones no son prioritarias para el segmento,
 las demás pierden sentido.
@@ -73,3 +76,4 @@ las demás pierden sentido.
 | Versión | Fecha | Cambio | Motivo / evidencia | Validado |
 |---|---|---|---|---|
 | v1 | 2026-10-05 | Versión inicial | product/intake.md v2; respuestas de la responsable del proyecto (2026-10-05) | Sí |
+| v2 | 2026-10-05 | Se añade la creencia 6 `[opportunity: coste-devoluciones-d2c] [value]` al final del registro; las creencias 1–5 no cambian | `/frame-opportunity`: product/opportunities/2026-10-05-1510-coste-devoluciones-d2c.md. Sin evidencia nueva; pone a prueba la inferencia "moda y calzado" | Sí |
