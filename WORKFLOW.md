@@ -2,7 +2,7 @@
 
 > Reglas permanentes de trabajo del proyecto.
 > Se aplican a todas las skills, sesiones y artefactos.
-> Estado: VALIDADO — v1 (2026-10-05)
+> Estado: VALIDADO — v2 (2026-10-05)
 
 ## 1. Flujo obligatorio
 
@@ -97,8 +97,20 @@ Estructura actual:
 Las carpetas nuevas se crean solo cuando una skill validada produce un artefacto que las necesita.
 La ruta de cada artefacto nuevo se indica en el borrador, antes de la validación.
 
+## 8. Alcance del proyecto
+
+- Todos los artefactos de Mi Producto AFPM (skills, documentos y resultados) se guardan
+  únicamente dentro de `mi-producto-/`, en la carpeta que corresponda.
+- `caso-compartido/` es un proyecto independiente (caso compartido de Teams del curso).
+  No se mezclan, mueven ni reutilizan sus archivos, salvo que la responsable del proyecto
+  lo pida de forma explícita como referencia.
+- Si una skill nueva crea un artefacto adicional, se guarda dentro de `mi-producto-/`
+  en su carpeta correspondiente y se mantiene la misma ruta en Obsidian y GitHub
+  siempre que sea posible.
+
 ## Historial de cambios
 
 | Versión | Fecha | Cambio | Motivo / evidencia | Validado |
 |---|---|---|---|---|
 | v1 | 2026-10-05 | Versión inicial | Reglas definidas por la responsable del proyecto | Sí |
+| v2 | 2026-10-05 | Se añade la sección 8 (Alcance del proyecto) | Instrucción de la responsable del proyecto: separar `mi-producto-/` de `caso-compartido/` | Sí |
