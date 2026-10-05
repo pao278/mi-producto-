@@ -1,6 +1,7 @@
 # Intake de producto — PredictiFlow (nombre provisional)
 
-> Estado: VALIDADO — v2 (2026-10-05). Reorganización de la v1 validada según la estructura
+> Estado: VALIDADO — v3 (2026-10-05). v3: actualización de fuentes tras la auditoría de evidencia.
+> v2: Reorganización de la v1 validada según la estructura
 > de `/prepare-product-context`.
 > Insumo para `/start-product`. Foco de esta etapa: el problema, no la solución.
 
@@ -9,6 +10,9 @@
 - [F1] Presentación `PredictFlow_Final_DM`, elaborada por un equipo original del que formaba parte
   la responsable del proyecto (resumida por ella en la conversación; el archivo original no está
   en esta carpeta).
+  **Actualización v3 (2026-10-05):** el archivo original ya está disponible en
+  `sources/PredictFlow_Final_DM.pptx` (23 diapositivas con notas del presentador; 4 autores, entre
+  ellos la responsable del proyecto, diap. 22).
 - [F2] Descripción del proyecto "Mi Producto AFPM".
 - [R] Indicaciones de la responsable del proyecto en la conversación del 2026-10-05.
 
@@ -196,16 +200,19 @@ prevenibles y si no se perjudica la conversión. Cadena a distinguir:
 
 ### 7.2 Cifras citadas en la presentación
 
-| Dato | Valor | Contexto | Estado |
-|---|---|---|---|
-| Facturación e-commerce España, Q2 2025 | 28.346 M€ | Incluye bienes y servicios; indica escala del canal, no volumen devolvible | Hecho documental [F1] |
-| Crecimiento interanual | +22,6 % | España | Hecho documental [F1] |
-| Hogares que compran online | 56,7 % | España | Hecho documental [F1] |
-| Ventas online devueltas | 19,3 % (≈1 de cada 5) | Benchmark retail EE. UU., 2025 | Hecho documental [F1] |
-| Coste de la devolución | ≈17 % del coste primario del producto | Muestra de 2.229 devoluciones, moda y calzado | Hecho documental [F1] |
-| Composición de ese coste | ≈72 % transporte y manipulación; resto preparación, almacenamiento y capital inmovilizado | Mismo estudio | Hecho documental [F1] |
+| Dato | Valor | Contexto | Fuente citada en F1 | Estado |
+|---|---|---|---|---|
+| Facturación e-commerce España, Q2 2025 | 28.346 M€ | Incluye bienes y servicios; indica escala del canal, no volumen devolvible | CNMC (Q2 2025), vía informe de investigación intermedio (diap. 2) | Hecho documental [F1] |
+| Crecimiento interanual | +22,6 % | España | CNMC (Q2 2025), vía informe intermedio (diap. 2) | Hecho documental [F1] |
+| Hogares que compran online | 56,7 % | España, **2024** | INE (2024), vía informe intermedio (diap. 2) | Hecho documental [F1] |
+| Ventas online devueltas | 19,3 % (≈1 de cada 5) | Benchmark retail EE. UU., 2025 | NRF & Happy Returns (2025) (diap. 4) | Hecho documental [F1] |
+| Coste de la devolución | ≈17 % del coste primario del producto | Muestra de 2.229 devoluciones, moda y calzado | Gustafsson, Jonsson & Holmström (2021), IJPDLM 51(8) (diap. 4) | Hecho documental [F1]; ver conflicto 9 |
+| Composición de ese coste | ≈72 % transporte y manipulación; resto preparación, almacenamiento y capital inmovilizado | Mismo estudio | Gustafsson, Jonsson & Holmström (2021) — misma fuente | Hecho documental [F1]; ver conflicto 9 |
 
 **Límites:**
+
+- Las fuentes están identificadas por la cita de F1, pero no se han consultado los documentos
+  originales. Deben verificarse antes de extrapolarlas al segmento objetivo. (v3)
 
 - Los benchmarks vienen de contextos distintos (país, sector, año) y **no deben combinarse**
   en una única estimación económica (advertencia de la propia presentación).
@@ -260,7 +267,8 @@ S1–S3 son los supuestos de problema y deberían atacarse primero.
   del equipo original. — Responsable del proyecto [R], 2026-10-05
 - Centrar esta etapa en el problema y no en la solución. — Responsable del proyecto [R], 2026-10-05
 - Registrar el concepto de solución existente como aparcado y no validado. — Responsable del proyecto [R]
-- No usar como contexto el `product/overview.md` actual (caso compartido de Microsoft Teams). — Responsable del proyecto [R]
+- No usar como contexto el `product/overview.md` actual (caso compartido de Microsoft Teams). — Responsable del proyecto [R].
+  **RESUELTO (v3, 2026-10-05):** `product/overview.md` ya contiene PredictiFlow (v1 validada en `/start-product`).
 - Nombre provisional: PredictiFlow. — [F1]
 - Regla de priorización: tiempo fijo, calidad protegida, alcance flexible. — [F1]; los valores
   de tiempo y presupuesto están en conflicto (§11) y no se ha confirmado si aplican al proyecto actual (§6)
@@ -327,11 +335,15 @@ Preguntas derivadas de H4–H6 (reformulan lo ya dicho, no añaden contenido):
    describe un equipo (PM y especialista Data/ML). Aclaración: [F1] la elaboró un equipo original
    del que formaba parte la responsable del proyecto; ahora ella desarrolla la idea de forma
    individual, y esos roles no representan necesariamente el equipo actual. — [F1], [F2], [R]
-6. **Fuente original no disponible:** la presentación se conoce solo por un resumen;
-   el resumen no nombra la fuente original de los benchmarks. — [F1]
+6. **Fuente original no disponible — RESUELTO (v3, 2026-10-05):** la presentación se conocía solo por un resumen
+   que no nombraba la fuente de los benchmarks. Ahora el original está en `sources/PredictFlow_Final_DM.pptx`
+   y cita CNMC, INE, NRF & Happy Returns (2025) y Gustafsson, Jonsson & Holmström (2021). — [F1]
 7. **Texto incompleto:** las preguntas sobre el momento de intervención llegaron cortadas. — [R]
-8. **Archivo mal ubicado:** `product/overview.md` contiene el caso compartido de Microsoft Teams
-   y no corresponde a este producto. — [R]
+8. **Archivo mal ubicado — RESUELTO (v3, 2026-10-05):** `product/overview.md` contenía el caso compartido de
+   Microsoft Teams; ya fue reemplazado por el overview de PredictiFlow. — [R]
+9. **Discrepancia de cifras dentro de F1 (nuevo, v3):** las diap. 4 y 23 muestran 17 % del coste primario
+   y 72 % transporte y manipulación; las notas del presentador de las diap. 11 y 23 citan 17,6 % y 65 %,
+   con "fuente primaria no visible". Sin resolver; verificar en Gustafsson, Jonsson & Holmström (2021). — [F1]
 
 ## 12. Traspaso a /start-product
 
@@ -368,3 +380,4 @@ Preguntas derivadas de H4–H6 (reformulan lo ya dicho, no añaden contenido):
 |---|---|---|---|---|
 | v1 | 2026-10-05 | Versión inicial | Contexto aportado por la responsable del proyecto | Sí |
 | v2 | 2026-10-05 | Reorganización según la estructura de `/prepare-product-context`; se añaden §1, §9, §12, motivos de los supuestos, responsables y los conflictos 5–8; se incorpora la aclaración sobre el equipo original (conflicto 5 resuelto) | Ejecución de la skill oficial sobre la v1; aclaración de la responsable del proyecto (2026-10-05) | Sí |
+| v3 | 2026-10-05 | §Fuentes: F1 original disponible; §7.2: fuentes citadas por F1 (CNMC, INE 2024, NRF & Happy Returns 2025, Gustafsson, Jonsson & Holmström 2021) y límite de verificación; §9 y conflictos 6 y 8 marcados como resueltos; nuevo conflicto 9 (17 %/72 % vs 17,6 %/65 %) | Auditoría `product/opportunity-audits/2026-10-05-1555-coste-devoluciones-d2c.md` (P9, P10); F1 original diap. 2, 4 y notas diap. 11 y 23 | Sí |

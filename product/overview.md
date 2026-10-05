@@ -1,7 +1,7 @@
 # PredictiFlow (nombre provisional)
 
-> Estado: VALIDADO — v2 (2026-10-05)
-> Fuente: product/intake.md v2 (validado, 2026-10-05)
+> Estado: VALIDADO — v3 (2026-10-05)
+> Fuente: product/intake.md v3 (validado, 2026-10-05)
 
 mode: new · commercial
 
@@ -23,12 +23,14 @@ aparcado (intake §5.1).
 > la considera una hipótesis inicial razonable, pero no hay evidencia del segmento.
 
 Fundadores o responsables de operaciones de marcas D2C pequeñas y medianas que venden en su propia
-tienda online (Shopify o WooCommerce), en categorías con muchas devoluciones (moda y calzado). En
-estas tiendas, la gestión de devoluciones y reclamos recae en la misma persona o en un equipo de
-1 a 3 personas que también decide sobre los pedidos.
+tienda online, en categorías con muchas devoluciones (moda y calzado). En estas tiendas, la gestión
+de devoluciones y reclamos podría recaer en la misma persona o en un equipo de 1 a 3 personas que
+también decidiría sobre los pedidos (supuesto).
 
 - Marcas pequeñas y medianas: intención declarada [F2].
-- Shopify y WooCommerce: mencionadas en [F1]; no validadas como segmento (S15).
+- Tienda online propia: decisión de alcance. La plataforma (Shopify, WooCommerce) no forma parte
+  del segmento; procede de la integración pasiva del concepto aparcado ([F1] diap. 15) y queda como
+  hipótesis de integración (S15). [F1] diap. 5 menciona además marketplaces, que este segmento excluye.
 - Moda y calzado: inferencia a partir de los benchmarks de [F1]; es un supuesto.
 - Que una sola persona acumule varios roles: es un supuesto (§4.1).
 
@@ -77,3 +79,4 @@ las demás pierden sentido.
 |---|---|---|---|---|
 | v1 | 2026-10-05 | Versión inicial | product/intake.md v2; respuestas de la responsable del proyecto (2026-10-05) | Sí |
 | v2 | 2026-10-05 | Se añade la creencia 6 `[opportunity: coste-devoluciones-d2c] [value]` al final del registro; las creencias 1–5 no cambian | `/frame-opportunity`: product/opportunities/2026-10-05-1510-coste-devoluciones-d2c.md. Sin evidencia nueva; pone a prueba la inferencia "moda y calzado" | Sí |
+| v3 | 2026-10-05 | "Para quién": se retira "Shopify o WooCommerce" del segmento ("tienda online propia") y la plataforma queda como hipótesis de integración (P3); la frase sobre quién gestiona pasa a condicional (P8). Creencias 1–6 sin cambios | Auditoría `product/opportunity-audits/2026-10-05-1555-coste-devoluciones-d2c.md` (C3, C5); F1 original diap. 5 y 15 | Sí |
