@@ -3,9 +3,7 @@
 Thumbs.db
 
 # Obsidian: estado de la ventana y caché (la configuración sí se versiona)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
+.obsidian/
 
 # Claude: configuración local de cada máquina
 .claude/settings.local.json
