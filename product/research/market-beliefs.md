@@ -7,11 +7,14 @@ question: ¿Qué dice la evidencia secundaria sobre las cuatro creencias no veri
 
 # Research: contraste de creencias no verificadas — NexoAid
 
-> Ruta propuesta: product/research/market-beliefs.md
-> Estado: BORRADOR — pendiente de validación (no guardar ni hacer commit)
+> Ruta: product/research/market-beliefs.md
+> Estado: VALIDADO — v1.1 (2026-10-07)
 > Etapa: Problem Discovery
 > Responsable: Paola Espejo
+> Fecha: 2026-10-06 (versión inicial) · 2026-10-07 (v1.1)
 > Base: product/overview.md v1 (2026-10-06), product/intake.md v1 (2026-10-06)
+> Documentos derivados: product/research/cva-market-opportunities.md → product/research/opportunity-prioritization.md
+> Cadena de research: creencias (este documento) → exploración del mercado → comparación de oportunidades → recomendación para research primario
 
 ## Alcance y método
 
@@ -540,4 +543,5 @@ académica; C = **COMERCIAL**.
 
 | Versión | Fecha | Cambio | Motivo / evidencia | Validado |
 |---|---|---|---|---|
-| v1 | 2026-10-06 | Versión inicial | /research-market, Research 1 | Pendiente |
+| v1 | 2026-10-06 | Versión inicial | /research-market, Research 1 | Sí |
+| v1.1 | 2026-10-07 | Encabezado: se añaden fecha, documentos derivados y cadena de research. Contenido sin cambios. La propuesta de cambio registrada en cva-market-opportunities.md §11.2 sigue sin aplicarse | Reorganización de los documentos de research pedida por la responsable | Sí |
