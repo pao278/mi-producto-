@@ -7,12 +7,15 @@ question: ¿Dónde existe una oportunidad suficientemente importante, demandada,
 
 # Research: oportunidades de mercado en CVA — NexoAid
 
-> Ruta propuesta: product/research/market-opportunities.md
-> Estado: BORRADOR — pendiente de validación
-> Versión del borrador: 2 (amplía y sustituye el borrador 1 del 2026-10-07, que no llegó a validarse)
+> Ruta: product/research/cva-market-opportunities.md (antes product/research/market-opportunities.md)
+> Estado: VALIDADO — v1.1 (2026-10-07)
+> Versión: v1.1 (la v1 sustituyó a los borradores 1 y 2 del 2026-10-07, no validados)
 > Etapa: Problem Discovery
 > Responsable: Paola Espejo
-> Base: product/overview.md v1, product/intake.md v1, product/research/market-beliefs.md v1
+> Fecha: 2026-10-07
+> Base: product/overview.md v1, product/intake.md v1, product/research/market-beliefs.md (v1; trazabilidad actualizada en v1.1)
+> Documento derivado: product/research/opportunity-prioritization.md
+> Cadena de research: creencias (market-beliefs.md) → exploración del mercado y comparación de oportunidades (este documento) → recomendación para research primario (opportunity-prioritization.md)
 
 ## 0. Cómo leer este documento
 
@@ -1524,7 +1527,7 @@ Todos están documentados en [A01], [A02], [F05] y [A11]:
 | Campo | Contenido |
 |---|---|
 | Artefacto | `product/research/market-beliefs.md` (VALIDADO v1, 2026-10-06) |
-| Qué cambia | **(1)** Resumen, punto 2, y C3 "Hechos encontrados". *Antes:* "El volumen mundial de CVA cayó en 2024 y se proyectan caídas de entre el 31 % y el 60 % en 2025". *Después:* añadir a continuación: "La serie revisada de Development Initiatives (GHA 2026) da 8,2 mil M USD en 2024 y 7,3 mil M USD en 2025 (−11 %). Las cifras de CALP y del GHA no son comparables entre sí." **(2)** C1, "Evidencia que la contradice o matiza", primer punto. *Antes:* "Las organizaciones grandes ya tienen un sistema integrado internamente (1.01)". *Después:* añadir el matiz: "Auditorías de 2023–2026 muestran que, aun con plataforma corporativa, persisten traspasos manuales y descuadres dentro de ACNUR y el PMA (ver market-opportunities.md)." |
+| Qué cambia | **(1)** Resumen, punto 2, y C3 "Hechos encontrados". *Antes:* "El volumen mundial de CVA cayó en 2024 y se proyectan caídas de entre el 31 % y el 60 % en 2025". *Después:* añadir a continuación: "La serie revisada de Development Initiatives (GHA 2026) da 8,2 mil M USD en 2024 y 7,3 mil M USD en 2025 (−11 %). Las cifras de CALP y del GHA no son comparables entre sí." **(2)** C1, "Evidencia que la contradice o matiza", primer punto. *Antes:* "Las organizaciones grandes ya tienen un sistema integrado internamente (1.01)". *Después:* añadir el matiz: "Auditorías de 2023–2026 muestran que, aun con plataforma corporativa, persisten traspasos manuales y descuadres dentro de ACNUR y el PMA (ver cva-market-opportunities.md)." |
 | Por qué cambia | Hay evidencia posterior que actualiza una cifra y matiza una afirmación. No se modifica ningún veredicto. |
 | Evidencia | [M01] GHA 2026; [A01] OIOS 2025/019; [A02] OIOS 2023/043; [A07] PMA AR/26/01 |
 | Impacto | Ninguno sobre los estados de C1–C4. Sí debería tenerlo en cuenta `/review-evidence` si se revisa `overview.md`. |
@@ -1809,4 +1812,6 @@ Todas las fuentes se consultaron entre el 2026-10-06 y el 2026-10-07.
 | Versión | Fecha | Cambio | Motivo / evidencia | Validado |
 |---|---|---|---|---|
 | Borrador 1 | 2026-10-07 | Comparación inicial de O1–O11 | /research-market, Research 2 | No |
-| Borrador 2 | 2026-10-07 | Ampliación completa: reorganización en OP1–OP12; fichas con criterios C1–C10; tratamiento especial de conciliación e interoperabilidad; matrices; shortlist; áreas no priorizadas; propuesta de cambio según WORKFLOW §3.1 | Instrucciones de la responsable; segunda ronda de búsqueda (6 líneas) | Pendiente |
+| Borrador 2 | 2026-10-07 | Ampliación completa: reorganización en OP1–OP12; fichas con criterios C1–C10; tratamiento especial de conciliación e interoperabilidad; matrices; shortlist; áreas no priorizadas; propuesta de cambio según WORKFLOW §3.1 | Instrucciones de la responsable; segunda ronda de búsqueda (6 líneas) | No |
+| v1 | 2026-10-07 | Versión validada (= borrador 2). La propuesta de cambio de la sección 11.2 queda registrada, no aplicada | Validación explícita de la responsable | Sí |
+| v1.1 | 2026-10-07 | Cambio de ruta: market-opportunities.md → cva-market-opportunities.md; encabezado con fecha, documento derivado y cadena de research; autorreferencia de §11.2 actualizada. Contenido de análisis sin cambios | Reorganización de los documentos de research pedida por la responsable | Sí |
